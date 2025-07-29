@@ -56,7 +56,7 @@ if __name__ == "__main__":
     # mcp.run(transport="stdio")
 
     # Access the MCP via the SSE protocol thourgh <<server_url>>/sse
-    # mcp.run(transport="sse")
+    mcp.run(transport="sse")
 
     # Access the MCP via the Streamable HTTP protocol thourgh <<server_url>>/streamable-http
-    mcp.run(transport="streamable-http")
+    #mcp.run(transport="streamable-http")
